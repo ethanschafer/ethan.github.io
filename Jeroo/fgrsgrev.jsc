@@ -1,0 +1,25 @@
+@Java
+
+method go()
+{
+   while( isWater(LEFT) )
+   {
+   plantSide();
+   }
+}
+
+method plantSide()
+{
+   plant();
+   hop();
+}
+@@
+method main()
+{
+   Jeroo bob = new Jeroo(96);
+   
+   bob.go();
+   bob.turn(RIGHT);   
+   bob.go();
+   bob.turn(RIGHT);
+}

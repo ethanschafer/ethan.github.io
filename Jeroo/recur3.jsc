@@ -1,0 +1,24 @@
+@Java
+method side()
+{
+   while(isClear(AHEAD))
+   {
+      plant();
+      if(isClear(AHEAD))
+      {
+         hop();
+      }   
+   }
+   if(!isFlower(AHEAD))
+   {
+      turn(RIGHT);
+      side();  
+   } 
+
+}
+@@
+method main()
+{
+   Jeroo joe = new Jeroo(100);
+   joe.side();
+}

@@ -1,0 +1,72 @@
+@Java
+method go()
+{
+   while (isClear(AHEAD))
+   {
+      if (isClear(AHEAD))
+      {
+         hop();
+      }
+      while (isFlower(AHEAD))
+      {
+         hop();
+         pick();
+      }
+      while (isNet(AHEAD))
+      {
+         toss();
+         hop();
+      }
+      if (isWater(AHEAD) && isFacing(EAST))
+      {
+         turn(RIGHT);
+         hop();
+         turn(RIGHT);
+         go();
+      }
+      if (isWater(AHEAD) && isFacing(WEST) && !isWater(LEFT))
+      {
+         turn(LEFT);
+         hop();
+         turn(LEFT);
+         go();
+      }
+   }
+   while (isFlower(AHEAD))
+   {
+      if (isClear(AHEAD))
+      {
+         hop();
+      }
+      while (isFlower(AHEAD))
+      {
+         hop();
+         pick();
+      }
+      while (isNet(AHEAD))
+      {
+         toss();
+         hop();
+      }
+      if (isWater(AHEAD) && isFacing(EAST))
+      {
+         turn(RIGHT);
+         hop();
+         turn(RIGHT);
+         go();
+      }
+      if (isWater(AHEAD) && isFacing(WEST) && !isWater(LEFT))
+      {
+         turn(LEFT);
+         hop();
+         turn(LEFT);
+         go();
+      }
+   }
+}
+@@
+method main()
+{
+   Jeroo bob = new Jeroo();
+   bob.go();
+}

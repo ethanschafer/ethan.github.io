@@ -1,0 +1,136 @@
+@Java
+method pickFlowers ()
+{
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+   hop ();
+   pick ();
+
+}
+
+method turnWest ()
+{
+   turn (RIGHT);
+   hop (1);
+   turn (RIGHT);
+   
+}
+
+method plantFlowers ()
+{
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+   hop (1);
+   plant ();
+
+}
+
+method turnEast ()
+{
+   turn (LEFT);
+   hop (1); 
+   turn (LEFT);
+   
+}
+@@
+
+method main ()
+{
+   Jeroo homer = new Jeroo (0,0);
+  while(  !(homer.isWater(AHEAD) && homer.isWater(LEFT)) )
+  {
+ 
+   homer.pickFlowers ();
+   homer.turnWest ();
+   homer.plantFlowers ();
+   homer.turnEast ();
+  }
+   
+   
+}

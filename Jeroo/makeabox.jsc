@@ -1,0 +1,36 @@
+@Java
+//(c) A+ Computer Science   
+
+method makeTenBox()
+{
+     
+}
+
+method hopTen()
+{
+                     
+}
+@@
+//(c) A+ Computer Science
+   
+method main()
+{
+   Jeroo bob = new Jeroo(5);
+   bob.toss();
+   bob.give(RIGHT);
+   bob.give(RIGHT);
+   bob.give(RIGHT);
+   bob.hop(10);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop(10);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop(10);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop(10);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop();
+} 

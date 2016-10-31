@@ -1,0 +1,141 @@
+@Java
+//(c) A+ Computer Science  
+
+method go()
+{
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+turn(RIGHT);
+hop();
+turn(RIGHT);
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+} 
+
+method  moveDownARow()
+{
+   turn(LEFT);
+   hop();
+   turn(LEFT);
+}
+
+@@
+//(c) A+ Computer Science
+
+method main()
+{
+   Jeroo bob = new Jeroo();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+   bob.moveDownARow();
+   bob.go();
+} 

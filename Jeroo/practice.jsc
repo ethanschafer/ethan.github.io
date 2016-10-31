@@ -1,0 +1,14 @@
+@Java
+
+@@
+method main()
+
+{
+   Jeroo bob = new Jeroo();
+
+   bob.hop(5);
+   bob.pick();
+   bob.hop(5);
+   bob.plant();
+   
+}

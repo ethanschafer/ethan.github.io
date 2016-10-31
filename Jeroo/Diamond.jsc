@@ -1,0 +1,76 @@
+@Java
+method move()
+{
+  plant();
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+  hop();
+}
+@@
+method main()
+{
+  Jeroo one = new Jeroo(0,11,99);
+  
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  
+  one.plant();
+  one.turn(RIGHT);
+  
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  
+  one.plant();
+  one.turn(RIGHT);
+  
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  
+  one.plant();
+  one.turn(RIGHT);
+  
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  one.move();
+  
+  
+  
+}

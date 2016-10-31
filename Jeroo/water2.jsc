@@ -1,0 +1,45 @@
+@Java
+method squareside()
+{
+   side();
+   side();
+   side();
+   side(); 
+}
+
+method side()
+{
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop();
+   
+}
+@@
+method main()
+{
+   Jeroo bo = new Jeroo(1,2,100);
+   while( !bo.isWater(AHEAD) )
+   {
+     if( bo.isWater(RIGHT) && !bo.isFlower(HERE) )
+     {
+        bo.squareside();
+     }
+    bo.hop();
+   }
+   
+   Jeroo bob = new Jeroo(15,2);
+   while( !bob.isWater(AHEAD) )
+   {
+     if( bob.isWater(RIGHT) && !bob.isFlower(HERE) )
+     {
+        bob.squareside();
+     }
+    bob.hop();
+   }
+}

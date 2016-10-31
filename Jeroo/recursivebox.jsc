@@ -1,0 +1,79 @@
+@Java
+//(c) A+ Computer Science
+
+method go()
+{
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+} 
+@@
+//(c) A+ Computer Science  
+
+method main()
+{
+   Jeroo bob = new Jeroo(100);
+   bob.go();
+   if (bob.isWater(AHEAD))
+   {
+   bob.turn(RIGHT);
+   }
+   bob.go();
+   if (bob.isWater(AHEAD))
+   {
+   bob.turn(RIGHT);
+   }
+   bob.go();
+   if (bob.isWater(AHEAD))
+   {
+   bob.turn(RIGHT);
+   }
+   bob.go();
+   if (bob.isWater(AHEAD))
+   {
+   bob.turn(RIGHT);
+   }
+} 

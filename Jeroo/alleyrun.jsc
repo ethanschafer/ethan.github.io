@@ -1,0 +1,97 @@
+@Java
+
+method go()
+{
+  while (isFlower(AHEAD))
+  {
+  hop();
+  pick();
+  }
+  while (isFlower(LEFT))
+  {
+  turn(LEFT);
+  hop();
+  pick();
+  turn(RIGHT);
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+  }
+  if (isFlower(RIGHT))
+  {
+  turn(RIGHT);
+  hop();
+  pick();
+  turn(LEFT);
+  turn(LEFT);
+  hop();
+  turn(RIGHT);
+  }
+  if (isNet(AHEAD))
+  {
+  toss();
+  hop();
+  plant();
+  hop();
+  }
+  if (isNet(LEFT))
+  {
+  turn(LEFT);
+  toss();
+  hop();
+  plant();
+  turn(RIGHT);
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+  }
+  if (isNet(RIGHT))
+  {
+  turn(RIGHT);
+  toss();
+  hop();
+  plant();
+  turn(LEFT);
+  turn(LEFT);
+  hop();
+  turn(RIGHT);
+  }
+  while (isWater(AHEAD))
+  {
+  turn(LEFT);
+  }
+  if (isClear(AHEAD))
+  {
+  hop();
+  }
+
+}
+@@
+//--- ALWAYS USE SAVE AS ---
+method main()
+{
+  Jeroo bob = new Jeroo(1,0,3);
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+   bob.go();
+
+} //===== end of method main() =====

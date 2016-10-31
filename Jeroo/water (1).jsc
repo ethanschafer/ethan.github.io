@@ -1,0 +1,101 @@
+@Java
+method squareside()  
+{
+}
+
+method side()
+{
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+}
+@@
+method main()
+{
+   Jeroo bob = new Jeroo(1,1,180);
+   bob.side();
+   bob.hop(12);
+   bob.side();
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.hop(6);
+   bob.turn(LEFT);
+   bob.hop(4);
+   bob.turn(LEFT);
+   bob.side();
+   bob.hop(8);
+   bob.turn(RIGHT);
+   bob.hop(3);
+   bob.turn(LEFT);
+   bob.side();
+   bob.turn(RIGHT);
+   bob.hop(7);
+   bob.turn(LEFT);
+   bob.hop();
+   bob.side();
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.hop(5);
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.side();
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.hop(5);
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.side();
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.hop(5);
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.side();
+   bob.turn(LEFT);
+   bob.hop(7);
+   bob.turn(RIGHT);
+   bob.side();
+   bob.turn(RIGHT);
+   bob.hop(12);
+   bob.turn(LEFT);
+   bob.hop(20);
+   bob.turn(LEFT);
+   bob.turn(LEFT);
+}

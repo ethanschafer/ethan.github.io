@@ -1,0 +1,56 @@
+@Java
+//(c) A+ Computer Science  
+
+method spiralIn()
+{
+   while (isClear(AHEAD))
+   {
+   hop();
+   }
+   if (isWater(AHEAD))
+   {
+   turn(RIGHT);
+   }
+   while (isClear(AHEAD))
+   {
+   hop();
+   }
+   while (isClear(AHEAD))
+   {
+   hop();
+   }
+   if (isWater(AHEAD))
+   {
+   turn(RIGHT);
+   }
+   while (isClear(AHEAD))
+   {
+   hop();
+   }
+} 
+
+method spiralOut()
+{
+   hop(20);
+   turn(RIGHT);
+}
+
+@@
+//(c) A+ Computer Science
+
+method main()
+{
+   Jeroo bob = new Jeroo();
+   while (bob.isClear(AHEAD))
+   {
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   bob.spiralIn();
+   }
+}

@@ -1,0 +1,90 @@
+@Java
+method go()
+{
+  if (isNet(AHEAD))
+  {
+  turn(RIGHT);
+  hop(2);
+  }
+  if (isNet(LEFT))
+  {
+  turn(RIGHT);
+  hop();
+  }
+  if (isNet(RIGHT))
+  {
+  hop(3);
+  }
+  if (isFlower(LEFT))
+  {
+  turn(RIGHT);
+  }
+  if (isFlower(RIGHT))
+  {
+  hop();
+  }
+  if (isWater(LEFT))
+  {
+  hop(2);
+  }
+  if (isWater(RIGHT))
+  {
+  turn(LEFT);
+  hop(2);
+  }
+  if (isWater(AHEAD))
+  {
+  turn(RIGHT);
+  hop(4);
+  } else
+  {
+  hop(2);
+  }
+  
+}
+@@
+//--- ALWAYS USE SAVE AS ---  
+method main()
+{
+  Jeroo bob = new Jeroo();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.hop();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.go();
+  bob.hop();
+
+} //===== end of method main() =====

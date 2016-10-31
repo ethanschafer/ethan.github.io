@@ -1,0 +1,171 @@
+@Java
+method pickFlowers()
+{
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+hop();
+pick();
+}
+
+method turnWest()
+{
+turn(RIGHT);
+hop(2);
+turn(RIGHT);
+}
+
+method turnEast()
+{
+turn(LEFT);
+hop(2);
+turn(LEFT);
+}
+
+method plantFlowers()
+{
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+}
+@@
+//Ethan Schafer
+//Unit 1-2 Quiz
+method main()
+{
+   Jeroo bob = new Jeroo();
+   bob.pickFlowers();
+   bob.turnWest();
+   bob.pickFlowers();
+   bob.turnEast();
+   bob.pickFlowers();
+   bob.turnWest();
+   bob.pickFlowers();
+   bob.turnEast();
+   bob.pickFlowers();
+   bob.turnWest();
+   bob.pickFlowers();
+   bob.turnEast();
+   bob.pickFlowers();
+   bob.turnWest();
+   bob.pickFlowers();
+   bob.turnEast();
+   bob.pickFlowers();
+   bob.turnWest();
+   bob.pickFlowers();
+   bob.turnEast();
+   bob.pickFlowers();
+   bob.turnWest();
+   bob.pickFlowers();
+   bob.turn(RIGHT);
+   bob.turn(RIGHT);
+   bob.plantFlowers();
+   bob.turnEast();
+   bob.plantFlowers();
+   bob.turnWest();
+   bob.plantFlowers();
+   bob.turnEast();
+   bob.plantFlowers();
+   bob.turnWest();
+   bob.plantFlowers();
+   bob.turnEast();
+   bob.plantFlowers();
+   bob.turnWest();
+   bob.plantFlowers();
+   bob.turnEast();
+   bob.plantFlowers();
+   bob.turnWest();
+   bob.plantFlowers();
+   bob.turnEast();
+   bob.plantFlowers();
+   bob.turnWest();
+   bob.plantFlowers();
+   bob.turnEast();
+   bob.plantFlowers();
+}
