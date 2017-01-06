@@ -1,0 +1,1 @@
+There seems to be a problem with pygame when using the é symbol in lists or something.

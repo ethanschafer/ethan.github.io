@@ -1,0 +1,4 @@
+for row in range( 4 ):
+	print( row)
+	for col in range ( 2 ):
+		print( col )
